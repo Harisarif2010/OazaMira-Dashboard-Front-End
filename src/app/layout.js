@@ -2,6 +2,7 @@ import "./globals.css";
 import Sidebar from "../../Componets/Layout/Sidebar";
 import { Search, Bell, CircleUserRound } from "lucide-react";
 import { Inter, Poppins } from "next/font/google";
+import SidebarModal from "../../Componets/Modals/SidebarModal";
 
 const poppins = Poppins({
   weight: ["400", "500", "600", "700"],
@@ -49,11 +50,9 @@ export default function RootLayout({ children }) {
 
               {/* icons */}
               <div className="flex justify-end gap-x-4 md:gap-x-6 md:pr-3">
-                {/*     <div className="md:hidden absolute top-14 left-4 z-50">
-                  <AdminMobileSidebarModal />
+                <div className="md:hidden absolute top-14 left-4 z-50">
+                  <SidebarModal />
                 </div>
-*/}
-
                 <Bell color="#6C8B48" height={20} width={20} />
                 <CircleUserRound color="#6C8B48" height={20} width={20} />
               </div>

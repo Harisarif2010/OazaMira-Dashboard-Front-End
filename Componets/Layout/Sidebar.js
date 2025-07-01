@@ -41,20 +41,7 @@ const Sidebar = () => {
                 <Link href="/AdminDashboard/">
                   <div
                     className={`flex items-center  px-4  py-1 mb-1 cursor-pointer transition-colors  my-3   ${
-                      isActive([
-                        "/AdminDashboard/",
-                        "/AdminDashboard/HomePageManagement",
-                        "/AdminDashboard/HomePageStatistics",
-                        "/AdminDashboard/HeroSection",
-                        "/AdminDashboard/SearchBar",
-                        "/AdminDashboard/RFQ",
-                        "/AdminDashboard/TopCategory",
-                        "/AdminDashboard/TopProducts",
-                        "/AdminDashboard/TopBrands",
-                        "/AdminDashboard/Works",
-                        "/AdminDashboard/Buisness",
-                        "/AdminDashboard/Reviews",
-                      ]) && "bg-[var(--pale-yellow)]  "
+                      isActive("/") && "bg-[var(--pale-yellow)]  "
                     }`}
                   >
                     <div className="mr-3 w-5 h-5 relative">
@@ -71,10 +58,10 @@ const Sidebar = () => {
                 </Link>
               </li>
               <li className="mb-6 mx-6">
-                <Link href="/AdminDashboard/Suppliers">
+                <Link href="/Users">
                   <div
                     className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors  ${
-                      isActive("/AdminDashboard/Suppliers") &&
+                      isActive("/Users") &&
                       "bg-[var(--pale-yellow)]  rounded-[20px]"
                     }`}
                   >
@@ -92,10 +79,10 @@ const Sidebar = () => {
                 </Link>
               </li>
               <li className="mb-6 mx-6">
-                <Link href="/AdminDashboard/Users">
+                <Link href="/ServiceProvider">
                   <div
                     className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors  ${
-                      isActive("/AdminDashboard/Users") &&
+                      isActive("/ServiceProvider") &&
                       "bg-[var(--pale-yellow)]  rounded-[20px]"
                     }`}
                   >
@@ -115,10 +102,10 @@ const Sidebar = () => {
                 </Link>
               </li>
               <li className="mb-6 mx-6">
-                <Link href="/AdminDashboard/Report">
+                <Link href="/Orders">
                   <div
                     className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors  ${
-                      isActive("/AdminDashboard/Report") &&
+                      isActive("/Orders") &&
                       "bg-[var(--pale-yellow)]  rounded-[20px]"
                     }`}
                   >
@@ -136,10 +123,10 @@ const Sidebar = () => {
                 </Link>
               </li>
               <li className="mb-6 mx-6">
-                <Link href="/AdminDashboard/Orders">
+                <Link href="/Invoices">
                   <div
                     className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors   ${
-                      isActive("/AdminDashboard/Orders") &&
+                      isActive("/Invoices") &&
                       "bg-[var(--pale-yellow)]  rounded-[20px]"
                     }`}
                   >
@@ -181,13 +168,11 @@ const Sidebar = () => {
                 </Link>
               </li>
               <li className="mb-6 mx-6">
-                <Link href="/AdminDashboard/Payments">
+                <Link href="/Support">
                   <div
                     className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors  ${
-                      isActive([
-                        "/AdminDashboard/Payments",
-                        "/AdminDashboard/Financials",
-                      ]) && "bg-[var(--pale-yellow)]  rounded-[20px]"
+                      isActive("/Support") &&
+                      "bg-[var(--pale-yellow)]  rounded-[20px]"
                     }`}
                   >
                     <div className="mr-3 w-5 h-5 relative">
@@ -205,13 +190,11 @@ const Sidebar = () => {
               </li>
 
               <li className="mb-6 mx-6">
-                <Link href="/AdminDashboard/SubscriptionManagment">
+                <Link href="/ContentModeration">
                   <div
                     className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors  ${
-                      isActive([
-                        "/AdminDashboard/SubscriptionManagment",
-                        "/AdminDashboard/AddSubscription",
-                      ]) && "bg-[var(--pale-yellow)] rounded-[20px]"
+                      isActive(["/ContentModeration"]) &&
+                      "bg-[var(--pale-yellow)] rounded-[20px]"
                     }`}
                   >
                     <div className="mr-3 w-5 h-5 relative">
@@ -257,10 +240,8 @@ const Sidebar = () => {
                 <Link href="/Notifications">
                   <div
                     className={`flex  items-center  mr-8 px-4 mb-1 cursor-pointer transition-colors    ${
-                      isActive([
-                        "/Notifications",
-                        "/AdminDashboard/CreateAd",
-                      ]) && " bg-[var(--pale-yellow)] rounded-[20px] py-3"
+                      isActive("/Notifications") &&
+                      " bg-[var(--pale-yellow)] rounded-[20px] py-3"
                     }`}
                   >
                     <div className="mr-3 w-5 h-5 relative">
@@ -276,13 +257,11 @@ const Sidebar = () => {
                 </Link>
               </li>
               <li className="mb-6 mx-6">
-                <Link href="/AdminDashboard/DiscountCode">
+                <Link href="/Compliance Management">
                   <div
                     className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors  ${
-                      isActive([
-                        "/AdminDashboard/DiscountCode",
-                        "/AdminDashboard/AddDiscount",
-                      ]) && "bg-[var(--pale-yellow)]  rounded-[20px]"
+                      isActive("/Compliance Management") &&
+                      "bg-[var(--pale-yellow)]  rounded-[20px]"
                     }`}
                   >
                     <div className="mr-3 w-5 h-5 relative">
@@ -301,10 +280,10 @@ const Sidebar = () => {
               </li>
 
               <li className="mb-6 mx-6">
-                <Link href="/AdminDashboard/Brands">
+                <Link href="/SystemSecurity">
                   <div
                     className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors  ${
-                      isActive("/AdminDashboard/Help") &&
+                      isActive("/SystemSecurity") &&
                       "bg-[var(--pale-yellow)]  rounded-[20px]"
                     }`}
                   >

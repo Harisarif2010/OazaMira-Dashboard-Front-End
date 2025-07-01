@@ -9,7 +9,9 @@ const ReusableTable = ({ heading, columns, data }) => {
       }}
     >
       <div className="flex justify-between items-center mb-4">
-        <h2 className="text-[22px] font-semibold text-black">{heading}</h2>
+        <h2 className="md:text-[22px]  text-lg font-semibold text-black">
+          {heading}
+        </h2>
         <div className="flex items-center gap-4">
           <input
             type="text"
@@ -23,7 +25,7 @@ const ReusableTable = ({ heading, columns, data }) => {
         </div>
       </div>
 
-      <table className="w-full text-sm text-left ">
+      <table className="w-full text-xs md:text-sm text-left ">
         <thead>
           <tr className="text-[#878984]">
             {columns.map((col) => (
@@ -37,7 +39,7 @@ const ReusableTable = ({ heading, columns, data }) => {
           {data.map((row, idx) => (
             <tr
               key={idx}
-              className="border-t border-t-[#EEEEEE] text-[13px] font-medium "
+              className="border-t border-t-[#EEEEEE] text-[10px] md:text-[13px] font-medium "
             >
               {columns.map((col) => (
                 <td key={col.key} className="py-3">

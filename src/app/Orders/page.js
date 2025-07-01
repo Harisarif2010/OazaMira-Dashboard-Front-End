@@ -5,7 +5,7 @@ import ReusableTable from "../../../Componets/Table";
 import TableModal from "../../../Componets/Modals/TableModal";
 const data = [
   {
-    ticketId: "ORD10235",
+    orderId: "ORD10235",
     user: "Ana Kovic",
     type: "Candle Lightning",
     provider: "green Memorial",
@@ -13,7 +13,7 @@ const data = [
     status: "Paid",
   },
   {
-    ticketId: "ORD10236",
+    orderId: "ORD10236",
     user: "Mark Miller",
     type: "Candle Lightning",
     provider: "green Memorial",
@@ -21,7 +21,7 @@ const data = [
     status: "Pending",
   },
   {
-    ticketId: "ORD10237",
+    orderId: "ORD10237",
     user: "Emily Norolk",
     type: "Candle Lightning",
     provider: "green Memorial",
