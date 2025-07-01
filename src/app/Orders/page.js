@@ -5,33 +5,37 @@ import ReusableTable from "../../../Componets/Table";
 import TableModal from "../../../Componets/Modals/TableModal";
 const data = [
   {
-    invoiceId: "ORD10235",
+    ticketId: "ORD10235",
     user: "Ana Kovic",
-    total: "€ 19.25",
+    type: "Candle Lightning",
+    provider: "green Memorial",
     date: "01-01-2025",
     status: "Paid",
   },
   {
-    invoiceId: "ORD10236",
+    ticketId: "ORD10236",
     user: "Mark Miller",
-    total: "€ 19.95",
+    type: "Candle Lightning",
+    provider: "green Memorial",
     date: "01-01-2025",
     status: "Pending",
   },
   {
-    invoiceId: "ORD10237",
+    ticketId: "ORD10237",
     user: "Emily Norolk",
-    total: "€ 18.95",
+    type: "Candle Lightning",
+    provider: "green Memorial",
     date: "01-01-2025",
     status: "Paid",
   },
 ];
 
-const Invoice = () => {
+const Orders = () => {
   const columns = [
-    { key: "invoiceId", label: "Invoice ID" },
+    { key: "orderId", label: "Order ID" },
     { key: "user", label: "User" },
-    { key: "total", label: "Total" },
+    { key: "type", label: "Service Type" },
+    { key: "provider", label: "Provider" },
     { key: "date", label: "Date" },
     {
       key: "status",
@@ -77,24 +81,20 @@ const Invoice = () => {
   };
   return (
     <div className="px-4">
-      <ReusableTable heading="Payment Table" columns={columns} data={data} />
+      <ReusableTable heading="Support Tracking" columns={columns} data={data} />
       <TableModal
         isOpen={open}
-        options={["Invoice Preview", "Payment Status Tracker"]}
+        options={[
+          "Full Conversation Log",
+          "Internal Notes",
+          "Assign / Reassign",
+          "Change Status",
+          "Trigger Feedback Survey",
+        ]}
         onClose={closeModal}
       />
-      <div className="w-full flex justify-end gap-x-3 py-4">
-        <Buttons
-          className="bg-[#FF5D41] rounded-[20px] flex justify-center items-center text-white text-[13px] h-8  w-21 cursor-pointer"
-          text="Refund"
-        />
-        <Buttons
-          className="bg-[var(--blue)] rounded-[20px] flex justify-center items-center text-white w-21 h-8 cursor-pointer "
-          text="Export "
-        />
-      </div>
     </div>
   );
 };
 
-export default Invoice;
+export default Orders;

@@ -5,10 +5,12 @@
   --foreground: #171717;
   --pale-yellow: #d4a300;
   --red: #df0404;
-  --light-red:#FF5D41
+  --light-red: #ff5d41;
   --blue-light: #1999ce;
-  --blue:#3B82F6;
+  --blue: #3b82f6;
   --green: #6c8b48;
+  --sky-blue: #10b9ff;
+  --tomato: #ff5b5b;
 }
 
 @theme inline {
