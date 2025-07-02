@@ -56,7 +56,12 @@ const OrdersChart = ({ heading }) => {
   };
 
   return (
-    <div className="w-full  bg-white rounded-lg p-4 shadow">
+    <div
+      className="w-full  bg-white rounded-2xl p-4 "
+      style={{
+        boxShadow: " 6px 6px 54px 0px #0000000D",
+      }}
+    >
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-lg font-semibold">{heading}</h2>
         <span className="bg-green-100 text-green-800 text-sm px-3 py-1 rounded-full">

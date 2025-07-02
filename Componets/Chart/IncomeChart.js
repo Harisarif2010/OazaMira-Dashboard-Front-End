@@ -66,6 +66,7 @@ const IncomeChart = ({ heading }) => {
       y: {
         beginAtZero: true,
         max: 80000,
+        min: 20000,
         ticks: {
           stepSize: 20000, // tick interval: 20,000
           callback: (value) => `${value / 1000}K`, // label format: 20K, 40K, etc.
@@ -81,7 +82,10 @@ const IncomeChart = ({ heading }) => {
   };
 
   return (
-    <div className="w-full  bg-white rounded-lg p-4 shadow">
+    <div
+      className="w-full  bg-white rounded-lg p-4 shadow"
+      style={{ boxShadow: "6px 6px 54px 0px #0000000D" }}
+    >
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-lg font-semibold">{heading}</h2>
         <div className="flex gap-2">

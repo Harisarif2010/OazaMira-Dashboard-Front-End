@@ -39,8 +39,8 @@ const RetentionChart = () => {
       legend: {
         position: "top",
         labels: {
-          boxWidth: 12,
-          padding: 15,
+          boxWidth: 8,
+          padding: 12,
         },
       },
     },
@@ -52,7 +52,7 @@ const RetentionChart = () => {
       y: {
         stacked: true,
         beginAtZero: true,
-        max: 100,
+        max: 60,
         ticks: {
           callback: (value) => `${value}%`,
           stepSize: 20,
@@ -66,7 +66,7 @@ const RetentionChart = () => {
   };
 
   return (
-    <div className="w-full bg-white rounded-lg p-4 shadow">
+    <div className="w-full bg-white rounded-2xl p-4 shadow">
       <h2 className="text-sm font-medium mb-2">Retention & Reactivation</h2>
       <Bar data={data} options={options} />
     </div>

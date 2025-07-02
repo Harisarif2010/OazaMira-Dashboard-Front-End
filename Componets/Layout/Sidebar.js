@@ -37,7 +37,7 @@ const Sidebar = () => {
           {/* MENU Section */}
           <div className="mb-6 text-white">
             <ul>
-              <li className="mb-6 mx-6">
+              <li className="mb-6 mx-6 px-4">
                 <Link href="/">
                   <div
                     className={`flex items-center  px-4  py-1 mb-1 cursor-pointer transition-colors  my-3   ${
@@ -58,7 +58,7 @@ const Sidebar = () => {
                   </div>
                 </Link>
               </li>
-              <li className="mb-6 mx-6">
+              <li className="mb-6 mx-6 px-4">
                 <Link href="/Users">
                   <div
                     className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors  ${
@@ -79,7 +79,7 @@ const Sidebar = () => {
                   </div>
                 </Link>
               </li>
-              <li className="mb-6 mx-6">
+              <li className="mb-6 mx-6 px-4">
                 <Link href="/ServiceProvider">
                   <div
                     className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors  ${
@@ -102,7 +102,7 @@ const Sidebar = () => {
                   </div>
                 </Link>
               </li>
-              <li className="mb-6 mx-6">
+              <li className="mb-6 mx-6 px-4">
                 <Link href="/Orders">
                   <div
                     className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors  ${
@@ -123,7 +123,7 @@ const Sidebar = () => {
                   </div>
                 </Link>
               </li>
-              <li className="mb-6 mx-6">
+              <li className="mb-6 mx-6 px-4">
                 <Link href="/Invoices">
                   <div
                     className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors   ${
@@ -145,7 +145,7 @@ const Sidebar = () => {
                 </Link>
               </li>
 
-              <li className="mb-6 mx-6 ">
+              <li className="mb-6 mx-6 px-4 ">
                 <Link href="/Insights">
                   <div
                     className={`flex items-center justify-start px-4 py-1 mb-1 cursor-pointer transition-colors  ${
@@ -168,7 +168,7 @@ const Sidebar = () => {
                   </div>
                 </Link>
               </li>
-              <li className="mb-6 mx-6">
+              <li className="mb-6 mx-6 px-4">
                 <Link href="/Support">
                   <div
                     className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors  ${
@@ -190,7 +190,7 @@ const Sidebar = () => {
                 </Link>
               </li>
 
-              <li className="mb-6 mx-6">
+              <li className="mb-6 mx-6 px-4">
                 <Link href="/ContentModeration">
                   <div
                     className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors  ${
@@ -213,7 +213,7 @@ const Sidebar = () => {
                   </div>
                 </Link>
               </li>
-              <li className="mb-6 mx-6">
+              <li className="mb-6 mx-6 px-4">
                 <Link href="/AdminDashboard/Quotation">
                   <div
                     className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors  ${
@@ -237,7 +237,7 @@ const Sidebar = () => {
                 </Link>
               </li>
 
-              <li className="mb-6 mx-6 ">
+              <li className="mb-6 mx-6 px-4 ">
                 <Link href="/Notifications">
                   <div
                     className={`flex  items-center  mr-8 px-4 mb-1 cursor-pointer transition-colors    ${
@@ -257,7 +257,7 @@ const Sidebar = () => {
                   </div>
                 </Link>
               </li>
-              <li className="mb-6 mx-6">
+              <li className="mb-6 mx-6 px-4">
                 <Link href="/Compliance Management">
                   <div
                     className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors  ${
@@ -280,7 +280,7 @@ const Sidebar = () => {
                 </Link>
               </li>
 
-              <li className="mb-6 mx-6">
+              <li className="mb-6 mx-6 px-3">
                 <Link href="/SystemSecurity">
                   <div
                     className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors  ${
@@ -302,7 +302,7 @@ const Sidebar = () => {
                   </div>
                 </Link>
               </li>
-              {/*        <li className="mb-6 mx-6">
+              {/*        <li className="mb-6 mx-6 px-4">
                 <Link href="/AdminDashboard/Adminstartors">
                   <div
                     className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors  ${
@@ -335,7 +335,7 @@ const Sidebar = () => {
                   </div>
                 </Link>
               </li>
-              <li className="mb-6 mx-6">
+              <li className="mb-6 mx-6 px-4">
                 <Link href="/AdminDashboard/Performance ">
                   <div
                     className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors  ${
