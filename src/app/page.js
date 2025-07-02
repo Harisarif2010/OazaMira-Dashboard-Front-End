@@ -62,7 +62,7 @@ export default function Home() {
 
   return (
     <div className="px-4">
-      <div className="flex md:flex-row flex-col gap-4 my-2">
+      <div className="flex md:flex-row flex-col gap-4 my-2 items-center">
         {stats.map((item, index) => (
           <StatCard key={index} {...item} />
         ))}

@@ -52,7 +52,7 @@ const ReusableTable = ({ heading, columns, data }) => {
       </table>
 
       {/* Static Pagination */}
-      <div className="flex justify-between items-center mt-4 text-sm text-[#B5B7C0] font-medium">
+      <div className="flex justify-between items-center mt-4 md:text-sm text-xs text-[#B5B7C0] font-medium">
         <p>Showing data 1 to {data.length} of 256K entries</p>
         <div className="flex gap-1">
           {[1, 2, 3].map((page) => (
