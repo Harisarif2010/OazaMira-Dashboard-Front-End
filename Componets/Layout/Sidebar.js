@@ -50,7 +50,7 @@ const Sidebar = () => {
                         src="/images/dashboard.png"
                         alt="Dashboard icon"
                         width={18}
-                        height={18}
+                        height={16}
                         className="object-contain"
                       />
                     </div>
@@ -146,11 +146,11 @@ const Sidebar = () => {
               </li>
 
               <li className="mb-6 mx-6 ">
-                <Link href="/AdminDashboard/ProductManagment">
+                <Link href="/Insights">
                   <div
-                    className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors  ${
-                      isActive("/AdminDashboard/Profile") &&
-                      " bg-[var(--pale-yellow)] rounded-[20px] py-3"
+                    className={`flex items-center justify-start px-4 py-1 mb-1 cursor-pointer transition-colors  ${
+                      isActive("/Insights") &&
+                      " bg-[var(--pale-yellow)] rounded-[20px] py-3 "
                     }`}
                   >
                     <div className="mr-3 w-5 h-5 relative">

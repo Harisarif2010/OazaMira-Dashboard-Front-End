@@ -14,7 +14,7 @@ const OrderTable = ({ orders = [] }) => {
     }
   };
   return (
-    <div className="bg-white rounded-2xl p-6">
+    <div className="bg-white rounded-2xl p-6 w-full">
       <div className="flex justify-between items-center text-[#1E1E1E] mb-4 ">
         <h2 className="md:text-xl text-base font-semibold">Last Orders</h2>
         <span className="md:text-base font-medium text-[var(--green)] cursor-pointer text-sm">

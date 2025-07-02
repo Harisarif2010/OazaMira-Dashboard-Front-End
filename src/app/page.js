@@ -1,4 +1,6 @@
 import StatCard from "../../Componets/Card/StarCard";
+import IncomeChart from "../../Componets/Chart/IncomeChart";
+import OrdersChart from "../../Componets/Chart/OrderChart";
 import OrderTable from "../../Componets/OrderTable";
 import { DollarSign, FileText, ShoppingBag, Users } from "lucide-react";
 
@@ -67,7 +69,20 @@ export default function Home() {
           <StatCard key={index} {...item} />
         ))}
       </div>
-      <OrderTable orders={ordersData} />
+      <div className="w-full flex justify-center my-2  ">
+        <IncomeChart heading="Total Income" />
+      </div>
+
+      <div className="flex md:flex-row flex-col gap-x-3 gap-y-3 items-start">
+        <div className="md:w-1/2 ">
+          {" "}
+          <OrdersChart heading="Number of Orders" />
+        </div>
+        <div className="md:w-1/2 ">
+          {" "}
+          <OrderTable orders={ordersData} />
+        </div>
+      </div>
     </div>
   );
 }
