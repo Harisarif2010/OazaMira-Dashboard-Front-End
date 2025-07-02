@@ -38,10 +38,11 @@ const Sidebar = () => {
           <div className="mb-6 text-white">
             <ul>
               <li className="mb-6 mx-6">
-                <Link href="/AdminDashboard/">
+                <Link href="/">
                   <div
                     className={`flex items-center  px-4  py-1 mb-1 cursor-pointer transition-colors  my-3   ${
-                      isActive("/") && "bg-[var(--pale-yellow)]  "
+                      isActive("/") &&
+                      " bg-[var(--pale-yellow)] rounded-[20px] py-3 "
                     }`}
                   >
                     <div className="mr-3 w-5 h-5 relative">
@@ -62,7 +63,7 @@ const Sidebar = () => {
                   <div
                     className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors  ${
                       isActive("/Users") &&
-                      "bg-[var(--pale-yellow)]  rounded-[20px]"
+                      " bg-[var(--pale-yellow)] rounded-[20px] py-3"
                     }`}
                   >
                     <div className="mr-3 w-5 h-5 relative">
@@ -83,7 +84,7 @@ const Sidebar = () => {
                   <div
                     className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors  ${
                       isActive("/ServiceProvider") &&
-                      "bg-[var(--pale-yellow)]  rounded-[20px]"
+                      " bg-[var(--pale-yellow)] rounded-[20px] py-3"
                     }`}
                   >
                     <div className="mr-3 w-5 h-5 relative">
@@ -106,7 +107,7 @@ const Sidebar = () => {
                   <div
                     className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors  ${
                       isActive("/Orders") &&
-                      "bg-[var(--pale-yellow)]  rounded-[20px]"
+                      " bg-[var(--pale-yellow)] rounded-[20px] py-3"
                     }`}
                   >
                     <div className="mr-3 w-5 h-5 relative">
@@ -127,15 +128,15 @@ const Sidebar = () => {
                   <div
                     className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors   ${
                       isActive("/Invoices") &&
-                      "bg-[var(--pale-yellow)]  rounded-[20px]"
+                      " bg-[var(--pale-yellow)] rounded-[20px] py-3"
                     }`}
                   >
                     <div className="mr-3 w-5 h-5 relative">
                       <Image
                         src="/images/invoice.png"
                         alt="Feeding Schedule icon"
-                        width={20}
-                        height={20}
+                        width={18}
+                        height={16}
                         className="object-contain"
                       />
                     </div>
@@ -149,7 +150,7 @@ const Sidebar = () => {
                   <div
                     className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors  ${
                       isActive("/AdminDashboard/Profile") &&
-                      "bg-[var(--pale-yellow)]  rounded-[20px]"
+                      " bg-[var(--pale-yellow)] rounded-[20px] py-3"
                     }`}
                   >
                     <div className="mr-3 w-5 h-5 relative">
@@ -172,7 +173,7 @@ const Sidebar = () => {
                   <div
                     className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors  ${
                       isActive("/Support") &&
-                      "bg-[var(--pale-yellow)]  rounded-[20px]"
+                      " bg-[var(--pale-yellow)] rounded-[20px] py-3"
                     }`}
                   >
                     <div className="mr-3 w-5 h-5 relative">
@@ -201,8 +202,8 @@ const Sidebar = () => {
                       <Image
                         src="/images/contnet.png"
                         alt="Pet Profile icon"
-                        width={20}
-                        height={20}
+                        width={18}
+                        height={14}
                         className="object-contain"
                       />
                     </div>
@@ -217,7 +218,7 @@ const Sidebar = () => {
                   <div
                     className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors  ${
                       isActive("/AdminDashboard/PainScore") &&
-                      "bg-[var(--pale-yellow)]  rounded-[20px]"
+                      " bg-[var(--pale-yellow)] rounded-[20px] py-3"
                     }`}
                   >
                     <div className="mr-3 w-5 h-5 relative">
@@ -261,7 +262,7 @@ const Sidebar = () => {
                   <div
                     className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors  ${
                       isActive("/Compliance Management") &&
-                      "bg-[var(--pale-yellow)]  rounded-[20px]"
+                      " bg-[var(--pale-yellow)] rounded-[20px] py-3"
                     }`}
                   >
                     <div className="mr-3 w-5 h-5 relative">
@@ -284,7 +285,7 @@ const Sidebar = () => {
                   <div
                     className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors  ${
                       isActive("/SystemSecurity") &&
-                      "bg-[var(--pale-yellow)]  rounded-[20px]"
+                      " bg-[var(--pale-yellow)] rounded-[20px] py-3"
                     }`}
                   >
                     <div className="mr-3 w-5 h-5 relative">
@@ -309,7 +310,7 @@ const Sidebar = () => {
                         "/AdminDashboard/Adminstartors",
                         "/AdminDashboard/AddAdminstartor",
                       ])
-                        ? "bg-[var(--pale-yellow)]  rounded-[20px]"
+                        ?  " bg-[var(--pale-yellow)] rounded-[20px] py-3"
                      
                     }`}
                   >
@@ -339,7 +340,7 @@ const Sidebar = () => {
                   <div
                     className={`flex items-center px-4 py-1 mb-1 cursor-pointer transition-colors  ${
                       isActive("/AdminDashboard/Performance")
-                        ? "bg-[var(--pale-yellow)]  rounded-[20px]"
+                        ?  " bg-[var(--pale-yellow)] rounded-[20px] py-3"
                      
                     }`}
                   >

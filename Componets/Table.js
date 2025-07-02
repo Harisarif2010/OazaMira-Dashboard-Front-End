@@ -60,7 +60,7 @@ const ReusableTable = ({ heading, columns, data }) => {
               key={page}
               className={`px-3 py-1 rounded ${
                 page === 1
-                  ? "bg-[#6C8B48] text-white"
+                  ? "bg-[var(--green)] text-white"
                   : "bg-[#EEEEEE] hover:bg-gray-200 text-[#404B52]"
               }`}
             >

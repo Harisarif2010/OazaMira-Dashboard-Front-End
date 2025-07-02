@@ -60,9 +60,9 @@ const Orders = () => {
           <button className="bg-[#0C6D95] text-white px-3 py-1 rounded-[20px] text-xs cursor-pointer">
             Edit
           </button>
-          <button className="px-2 py-1 border bg-[#6C8B48] rounded-[20px] h-4 w-8 flex justify-center items-center opacity-20">
+          <button className="px-2 py-1 border bg-[var(--green)] rounded-[20px] h-4 w-8 flex justify-center items-center opacity-20">
             <span
-              className="text-[#6C8B48] text-sm  cursor-pointer"
+              className="text-[var(--green)] text-sm  cursor-pointer"
               onClick={openModal}
             >
               ...

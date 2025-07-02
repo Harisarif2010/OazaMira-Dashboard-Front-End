@@ -8,7 +8,7 @@ const OrderTable = ({ orders = [] }) => {
       case "On Delivery":
         return "text-[#0DC4FC] bg-[#0DC4FC]  ";
       case "cancelled":
-        return "text-[#6C8B48] bg-[#6C8B48] ";
+        return "text-[var(--green)] bg-[var(--green)] ";
       default:
         return "text-gray-600 bg-gray-100";
     }

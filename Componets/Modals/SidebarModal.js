@@ -108,10 +108,9 @@ const SidebarModal = () => {
                     onClick={() => setIsOpen(false)}
                   >
                     <div
-                      className={`flex items-center gap-3 px-4 py-2 rounded-lg font-semibold ${
-                        isActive(item.paths)
-                          ? "bg-[var(--pale-yellow)] text-[#356101]"
-                          : "text-white"
+                      className={`flex items-center gap-3 px-4 py-2 rounded-lg font-semibold text-white ${
+                        isActive(item.paths) &&
+                        "bg-[var(--pale-yellow)] rounded-[20px]"
                       }`}
                     >
                       <Image

@@ -23,7 +23,7 @@ const ContentModeration = () => {
               <button className="rounded-2xl text-[7px] font-normal text-[#C3C3C3] border border-[#C3C3C3] bg-white w-10 h-4">
                 Add Note
               </button>
-              <button className="rounded-2xl text-[7px] font-normal text-white bg-[#6C8B48] w-10 h-4">
+              <button className="rounded-2xl text-[7px] font-normal text-white bg-[var(--green)] w-10 h-4">
                 Approve
               </button>
               <button className="rounded-2xl text-[7px] font-normal text-white bg-[#1999CE] w-10 h-4">
@@ -42,7 +42,7 @@ const ContentModeration = () => {
               <button className="rounded-2xl text-[7px] font-normal text-[#C3C3C3] border border-[#C3C3C3] bg-white w-10 h-4">
                 Add Note
               </button>
-              <button className="rounded-2xl text-[7px] font-normal text-white bg-[#6C8B48] w-10 h-4">
+              <button className="rounded-2xl text-[7px] font-normal text-white bg-[var(--green)] w-10 h-4">
                 Approve
               </button>
               <button className="rounded-2xl text-[7px] font-normal text-white bg-[#1999CE] w-10 h-4">
@@ -61,7 +61,7 @@ const ContentModeration = () => {
               <button className="rounded-2xl text-[7px] font-normal text-[#C3C3C3] border border-[#C3C3C3] bg-white w-10 h-4">
                 Add Note
               </button>
-              <button className="rounded-2xl text-[7px] font-normal text-white bg-[#6C8B48] w-10 h-4">
+              <button className="rounded-2xl text-[7px] font-normal text-white bg-[var(--green)] w-10 h-4">
                 Approve
               </button>
               <button className="rounded-2xl text-[7px] font-normal text-white bg-[#1999CE] w-10 h-4">
@@ -80,7 +80,7 @@ const ContentModeration = () => {
               <button className="rounded-2xl text-[7px] font-normal text-[#C3C3C3] border border-[#C3C3C3] bg-white w-10 h-4">
                 Add Note
               </button>
-              <button className="rounded-2xl text-[7px] font-normal text-white bg-[#6C8B48] w-10 h-4">
+              <button className="rounded-2xl text-[7px] font-normal text-white bg-[var(--green)] w-10 h-4">
                 Approve
               </button>
               <button className="rounded-2xl text-[7px] font-normal text-white bg-[#1999CE] w-10 h-4">
